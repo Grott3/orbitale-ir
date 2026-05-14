@@ -10,4 +10,4 @@ Proof of Concept Fork von https://github.com/Leg0Batman/orbitale für Bildrender
 > cargo run -- -i
 ```
 
-*\*NUR iTerm & Kitty zeigen die Bilder korrekt an, bei anderen Terminals wird das Bild mit Unicode-Blöcken schätzungsweise angezeigt.*
+*\*NUR iTerm, Kitty & Sixel-kompatible Terminals zeigen die Bilder korrekt an, bei anderen wird das Bild mit Unicode-Blöcken schätzungsweise angezeigt.*
