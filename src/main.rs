@@ -255,6 +255,9 @@ fn render_orbital_image(n: u32, l: u32, m: i32, label: &str) {
     }
 
     let config = Config {
+        use_iterm: true,
+        use_kitty: true,
+        use_sixel: true,
         absolute_offset: false,
         ..Default::default()
     };
@@ -280,7 +283,7 @@ USAGE:
 
 ARGS:
 
-    -i          => display orbitals as images instead of ASCII art (Kitty, iTerm & compatible terminal emulators only)
+    -i          => display orbitals as images instead of ASCII art (Kitty, iTerm & Sixel compatible terminal emulators only)
 
     --help | -h => return this message
 ";
